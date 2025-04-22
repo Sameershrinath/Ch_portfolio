@@ -284,7 +284,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg.jpg") top right no-repeat;
+  background: url("../img/bg.jpg") top left repeat;
   background-size: cover;
   position: relative;
 }
@@ -309,11 +309,11 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #f4faff;
+  color: #140aa4;
 }
 
 #hero p {
-  color: #07be8e;
+  color: #000907;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -347,8 +347,9 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 50px;
+    line-height: 46px;
+    color: #200787;
   }
 
   #hero p {
@@ -1026,9 +1027,11 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
-  display: flex;
+  display: block;
+  margin: 0 auto;
   justify-content: space-between;
   padding-right: 2rem;
+ 
 }
 
 .contact .info i {
@@ -1065,6 +1068,9 @@ section {
 .contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
+}
+.email, .address, .phone{
+  padding: 20px
 }
 
 .contact .php-email-form {
@@ -1227,7 +1233,6 @@ section {
 }
 
 .gittarget {
-  height: 150px;
   animation: blink-opacity 1s infinite;
   height: fit-content;
 }
